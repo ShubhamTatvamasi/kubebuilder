@@ -13,6 +13,12 @@ mkdir -p ~/projects/guestbook
 cd ~/projects/guestbook
 kubebuilder init --domain shubhamtatvamasi.com --repo github.com/ShubhamTatvamasi/guestbook
 ```
+
+generate template code for CRD and Controller:
+```bash
+kubebuilder create api --group webapp --version v1 --kind Guestbook
+```
+
 ---
 
 Check all make commands:
