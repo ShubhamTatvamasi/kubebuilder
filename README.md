@@ -41,4 +41,11 @@ Generate CRD:
 make manifests
 ```
 
+Install CRD:
+```bash
+make install
+```
+
+
+
 
