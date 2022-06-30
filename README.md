@@ -2,7 +2,7 @@
 
 Install kubebuilder:
 ```bash
-# download kubebuilder and install locally.
-curl -L -o kubebuilder https://go.kubebuilder.io/dl/latest/$(go env GOOS)/$(go env GOARCH)
-chmod +x kubebuilder && mv kubebuilder /usr/local/bin/
+wget https://github.com/kubernetes-sigs/kubebuilder/releases/download/v3.5.0/kubebuilder_linux_amd64
+chmod +x kubebuilder_linux_amd64
+sudo mv kubebuilder_linux_amd64 /usr/local/bin/kubebuilder
 ```
