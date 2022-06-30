@@ -31,3 +31,7 @@ Run your controller:
 make run
 ```
 
+Generate code:
+```bash
+make generate
+```
