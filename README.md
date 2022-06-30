@@ -6,3 +6,10 @@ wget https://github.com/kubernetes-sigs/kubebuilder/releases/download/v3.5.0/kub
 chmod +x kubebuilder_linux_amd64
 sudo mv kubebuilder_linux_amd64 /usr/local/bin/kubebuilder
 ```
+
+Create a project:
+```bash
+mkdir -p ~/projects/guestbook
+cd ~/projects/guestbook
+kubebuilder init --domain shubhamtatvamasi.com --repo shubhamtatvamasi.com/guestbook
+```
