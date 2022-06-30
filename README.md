@@ -35,3 +35,10 @@ Generate code:
 ```bash
 make generate
 ```
+
+Generate CRD:
+```bash
+make manifests
+```
+
+
