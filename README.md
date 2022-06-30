@@ -13,8 +13,15 @@ mkdir -p ~/projects/guestbook
 cd ~/projects/guestbook
 kubebuilder init --domain shubhamtatvamasi.com --repo github.com/ShubhamTatvamasi/guestbook
 ```
+---
 
 Check all make commands:
 ```bash
 make help
 ```
+
+Run your controller:
+```bash
+make run
+```
+
