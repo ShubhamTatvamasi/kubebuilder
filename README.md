@@ -11,5 +11,5 @@ Create a project:
 ```bash
 mkdir -p ~/projects/guestbook
 cd ~/projects/guestbook
-kubebuilder init --domain shubhamtatvamasi.com --repo shubhamtatvamasi.com/guestbook
+kubebuilder init --domain shubhamtatvamasi.com --repo github.com/ShubhamTatvamasi/guestbook
 ```
